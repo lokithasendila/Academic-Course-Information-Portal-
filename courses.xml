@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course level="Foundation">
+        <code>FND101</code>
+        <name>Foundation in Computing</name>
+        <duration>1 Year</duration>
+        <entry>Completion of GCE O/L</entry>
+        <description>
+        Builds essential programming and mathematics skills for IT fields.
+        </description>
+    </course>
+    <course level="Foundation">
+        <code>FND102</code>
+        <name>Foundation in Business</name>
+        <duration>1 Year</duration>
+        <entry>Completion of GCE O/L</entry>
+        <description>
+        Introduces management, marketing, and accounting fundamentals.
+        </description>
+    </course>
+        <course level="Foundation">
+        <code>FND103</code>
+        <name>Foundation in Engineering</name>
+        <duration>1 Year</duration>
+        <entry>Completion of GCE O/L</entry>
+        <description>
+        Covers core mathematics and physics for engineering pathways.
+        </description>
+    </course>
+    <course level="Undergraduate">
+        <code>UG101</code>
+        <name>BSc Computer Science</name>
+        <duration>3 Years</duration>
+        <entry>Foundation or GCE A/L</entry>
+        <description>
+        Focuses on software development, algorithms, and networks.
+        </description>
+    </course>
+    <course level="Undergraduate">
+        <code>UG102</code>
+        <name>BSc Software Engineering</name>
+        <duration>3 Years</duration>
+        <entry>Foundation or GCE A/L</entry>
+        <description>
+        Emphasises software design, testing, and project management.
+        </description>
+    </course>
+    <course level="Undergraduate">
+        <code>UG103</code>
+        <name>BSc Data Science</name>
+        <duration>3 Years</duration>
+        <entry>Foundation or GCE A/L</entry>
+        <description>
+        Covers data analysis, statistics, and programming techniques.
+        </description>
+    </course>
+    <course level="Undergraduate">
+        <code>UG201</code>
+        <name>BSc Business Management</name>
+        <duration>3 Years</duration>
+        <entry>Foundation or GCE A/L</entry>
+        <description>
+        Develops leadership and strategic business skills.
+        </description>
+    </course>
+        <course level="Undergraduate">
+        <code>UG301</code>
+        <name>BSc Mechanical Engineering</name>
+        <duration>4 Years</duration>
+        <entry>Foundation or GCE A/L</entry>
+        <description>
+        Studies mechanics, thermodynamics, and manufacturing systems.
+        </description>
+    </course>
+        <course level="Postgraduate">
+        <code>PG101</code>
+        <name>MSc Data Science</name>
+        <duration>1 Year</duration>
+        <entry>Relevant Bachelor’s Degree</entry>
+        <description>
+        Advanced machine learning and big data analytics.
+        </description>
+    </course>
+        <course level="Postgraduate">
+        <code>PG102</code>
+        <name>MSc Artificial Intelligence</name>
+        <duration>1 Year</duration>
+        <entry>Relevant Bachelor’s Degree</entry>
+        <description>
+        Specialises in AI systems, neural networks, and automation.
+        </description>
+    </course>
+        <course level="Postgraduate">
+        <code>PG103</code>
+        <name>MSc Computer Science</name>
+        <duration>1 Year</duration>
+        <entry>Relevant Bachelor’s Degree</entry>
+        <description>
+        Advanced topics in cloud computing and cybersecurity.
+        </description>
+    </course>
+        <course level="Postgraduate">
+        <code>PG201</code>
+        <name>MSc Business Analytics</name>
+        <duration>1 Year</duration>
+        <entry>Relevant Bachelor’s Degree</entry>
+        <description>
+        Combines data analysis with business decision-making.
+        </description>
+    </course>
+        <course level="Postgraduate">
+        <code>PG301</code>
+        <name>MSc Engineering Management</name>
+        <duration>1 Year</duration>
+        <entry>Relevant Bachelor’s Degree</entry>
+        <description>
+        Integrates engineering principles with leadership skills.
+        </description>
+    </course>
+
+</courses>

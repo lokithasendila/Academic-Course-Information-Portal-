@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Academic Course Portal</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+        <link rel="stylesheet" href="css/style.css">
+            <style>
+             body { font-family: Arial, sans-serif;}
+             h2 { text-align: center; }
+                select { padding: 10px; margin-bottom: 20px; }
+            </style>
+
+    </head>
+<body>
+        <script src="departmentscroll.js"></script>
+
+        <!-- HEADER -->
+        <header class="navbar">
+            <div class="brand">
+                <img src="assets/logo.png" alt="University Logo" class="logo">
+                <span class="site-name">Scholara Course Hub</span>
+            </div>
+
+            <nav><b>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="enquiry.html">Enquire</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact US</a>
+            </nav></b>
+
+        </header>
+
+        <section class="hero" style="height:60vh; padding-left:5%; padding-top:100px;">
+            <div class="hero-content">
+                <h1>Our Courses</h1>
+                <p>Explore our wide range of foundation, undergraduate, and postgraduate programmes designed to shape your future and empower your career.</p>
+            </div>
+        </section>
+        <br>
+
+            <div class="filter-section">
+                <label for="levelFilter">Filter by Level:</label>
+                    <select id="levelFilter" onchange="filterCourses()">
+                        <option value="All">All Levels</option>
+                        <option value="Foundation">Foundation</option>
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Postgraduate">Postgraduate</option>
+                    </select>
+            </div>
+
+            <div id="coursesContainer" class="courses-grid"></div>
+            <script src="courses.js"></script>
+    </body>
+</html>

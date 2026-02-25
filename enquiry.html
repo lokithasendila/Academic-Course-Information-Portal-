@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Enquiry</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+
+    <header class="navbar">
+        <div class="brand">
+            <img src="assets/logo.png" alt="University Logo" class="logo">
+            <span class="site-name">Scholara Course Hub</span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="enquiry.html">Enquire</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact US</a>
+        </nav>
+    </header>
+
+    <section class="enquiry-section">
+        <h2>Course Enquiry Form</h2>
+
+        <form id="enquiryForm">
+
+            <!-- Text -->
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name">
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <!-- Telephone -->
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+
+            <!-- Select -->
+            <label for="course">Select Course</label>
+                <select id="course" name="course">
+                    <option value="">-- Choose Course --</option>
+                    <option>Foundation in Computing</option>
+                    <option>Foundation in Business</option>
+                    <option>Foundation in Engineering</option>
+                    <option>BSc Computer Science</option>
+                    <option>BSc Software Engineering</option>
+                    <option>BSc Data Science</option>
+                    <option>BSc Business Management</option>
+                    <option>BSc Mechanical Engineering</option>
+                    <option>MSc Artificial Intelligence</option>
+                    <option>MSc Computer Science</option>
+                    <option>MSc Business Analytics</option>
+                    <option>MSc Engineering Management</option>
+                    <option>MSc Business Analytics</option>
+                </select>
+
+            <!-- Radio Buttons -->
+            <fieldset class="study-mode">
+                <legend>Preferred Study Mode</legend>
+
+                <label class="radio-item">
+                    <input type="radio" name="mode" value="full-time">
+                    <span>Full-time</span>
+                </label>
+
+                <label class="radio-item">
+                    <input type="radio" name="mode" value="part-time">
+                    <span>Part-time</span>
+                </label>
+            </fieldset>
+
+                <!-- Textarea -->
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <!-- Checkbox -->
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agree">
+                    <label for="agree"><center>I agree to the terms and conditions</center></label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Enquiry</button>
+
+                <p id="formMessage"></p>
+
+        </form>
+    </section>
+
+    <script src="enquiry.js"></script>
+</body>
+</html>
