@@ -1,1 +1,3 @@
 "# Academic-Course-Information-Portal-" 
+
+Scholara Course Hub is a responsive Academic Course Portal developed using HTML, CSS, JavaScript, and XML. The system simulates a university website where users can explore foundation, undergraduate, and postgraduate programmes. Courses are dynamically loaded from an external XML file and displayed as interactive cards with filtering functionality based on academic level. The portal also includes a fully validated enquiry form implemented using custom JavaScript validation (without HTML5 built-in validation). The project demonstrates structured web design, dynamic content handling, accessibility considerations, and consistent UI/UX principles suitable for an academic environment.
