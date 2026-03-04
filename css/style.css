@@ -57,6 +57,7 @@ nav a {
     margin-left: 15px;
     padding: 6px 12px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -110,6 +111,11 @@ nav a:hover {
 
 .hero-content {
     animation: fadeSlide 1.2s ease-out forwards;
+}
+
+.hero-content-center {
+    text-align: center;
+    display: block;
 }
 
 @keyframes fadeSlide {
@@ -215,7 +221,7 @@ nav a:hover {
     font-size: 2.4rem;
     margin-bottom: 1rem;
     transition: text-shadow 0.3s ease, color 0.3s ease;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 .intro h1:hover{
@@ -296,6 +302,10 @@ nav a:hover {
     height: 200px;
     padding-right: 70px;
     border-radius: 15px;
+}
+
+.center-text {
+    text-align: center;
 }
 
 .course {
